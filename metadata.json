@@ -1,0 +1,6 @@
+{
+  "name": "Loop & Label",
+  "description": "Editorial campus fashion resale marketplace for college students to buy, sell, and discover pre-loved clothing within their university community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

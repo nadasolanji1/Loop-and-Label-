@@ -15,9 +15,14 @@ import {
   OutfitTheme,
 } from '../types';
 
-export const HERO_IMAGE = '/src/assets/images/hero_campus_fashion_1793914576087.jpg';
-export const CATEGORY_GOING_OUT_IMG = '/src/assets/images/category_going_out_1793914588925.jpg';
-export const CATEGORY_GAME_DAY_IMG = '/src/assets/images/category_game_day_1793914599716.jpg';
+
+import heroImage from '../assets/images/hero_campus_fashion_1793914576087.jpg';
+import goingOutImage from '../assets/images/category_going_out_1793914588925.jpg';
+import gameDayImage from '../assets/images/category_game_day_1793914599716.jpg';
+
+export const HERO_IMAGE = heroImage;
+export const CATEGORY_GOING_OUT_IMG = goingOutImage;
+export const CATEGORY_GAME_DAY_IMG = gameDayImage;
 
 export interface CuratedCollectionInfo {
   key: CuratedCollectionKey;
